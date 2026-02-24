@@ -67,7 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\admin-icon.png" />
     <Content Include="assets\book-icon.jpg" />
+    <Content Include="assets\user-solid-icon.png" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
     <Content Include="bootstrap\js\jquery-4.0.0.slim.min.js" />
@@ -5837,6 +5839,13 @@
     <Content Include="fontawesome\fontawesome-free-7.2.0-web\svgs\solid\z.svg" />
     <Content Include="fontawesome\fontawesome-free-7.2.0-web\svgs\solid\zap.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Login.aspx" />
+    <Content Include="Signup.aspx" />
+    <Content Include="SlideImg\Slide1.jpg" />
+    <Content Include="SlideImg\Slide2.jpg" />
+    <Content Include="SlideImg\Slide3.jpg" />
+    <Content Include="SlideImg\Slide4.jpg" />
+    <Content Include="SlideImg\Slide5.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -5850,7 +5859,21 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Signup.aspx.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signup.aspx.designer.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

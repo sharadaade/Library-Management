@@ -1,13 +1,10 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LibraryManagement.Site1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="LibraryManagement.Login" %>
 
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <title>Signup - LMS</title>
     <%--Bootsrap CSS--%>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -25,9 +22,6 @@
 
     <%--Bootsrap JS--%>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -58,8 +52,8 @@
 
                 <!-- Navbar Right Login -->
                 <div class="pmd-navbar-right-icon m-sm-auto">
-                    <a class="btn btn-sm btn-danger" href="Login.aspx">SignUp</a>
-                    <a class="btn btn-sm btn-danger me-3" href="Signup.aspx">SignIn</a>
+                    <%--<a class="btn btn-sm btn-danger me-3" href="Login.aspx">Signup</a>--%>
+                    <a class="btn btn-sm btn-danger me-3" href="Login.aspx">Login</a>
                 </div>
             </nav>
             <div class="jumbotron text-center alert alert-danger" style="margin-bottom: 0">
@@ -92,8 +86,7 @@
                         <hr class="d-sm-none" />
                     </div>
                     <div class="col-lg-10 border">
-                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                        </asp:ContentPlaceHolder>
+                        SignUp Screen
                     </div>
                 </div>
             </div>
@@ -109,7 +102,7 @@
                         <div class="col-md-4">
                             <h5>Quick Links</h5>
                             <ul class="list-unstyled">
-                                <li><a href="#" class="text-white">Home</a></li>
+                                <li><a href="default.aspx" class="text-white">Home</a></li>
                                 <li><a href="#" class="text-white">Services</a></li>
                                 <li><a href="#" class="text-white">Contact</a></li>
                             </ul>
@@ -129,3 +122,4 @@
     </form>
 </body>
 </html>
+
