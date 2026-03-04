@@ -60,13 +60,13 @@ namespace LibraryManagement
         protected global::System.Web.UI.WebControls.TextBox txtAdminID;
 
         /// <summary>
-        /// btnAdminPassword control.
+        /// txtAdminPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox btnAdminPassword;
+        protected global::System.Web.UI.WebControls.TextBox txtAdminPassword;
 
         /// <summary>
         /// btnAdminLogin control.

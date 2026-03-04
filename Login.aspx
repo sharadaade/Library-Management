@@ -146,7 +146,7 @@
                                                                     <asp:TextBox ID="txtUserPassword" CssClass="form-control" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
                                                                 </div>
                                                                 <div class="form-group mt-3">
-                                                                    <asp:Button ID="btnUserLogin" runat="server" Text="Login" CssClass="btn btn-primary w-100" />
+                                                                    <asp:Button ID="btnUserLogin" runat="server" Text="Login" CssClass="btn btn-primary w-100" OnClick="btnUserLogin_Click" />
                                                                 </div>
                                                                 <div class="form-group mt-3">
                                                                     <a class="" href="Signup.aspx">
@@ -204,7 +204,7 @@
                                                                 </div>
                                                                 <label class="mt-3">Password</label>
                                                                 <div class="form-group">
-                                                                    <asp:TextBox ID="btnAdminPassword" CssClass="form-control" runat="server" placeholder="Admin Password" TextMode="Password"></asp:TextBox>
+                                                                    <asp:TextBox ID="txtAdminPassword" CssClass="form-control" runat="server" placeholder="Admin Password" TextMode="Password"></asp:TextBox>
                                                                 </div>
                                                                 <div class="form-group mt-3">
                                                                     <asp:Button ID="btnAdminLogin" runat="server" Text="Admin Login" CssClass="btn btn-primary w-100" />
